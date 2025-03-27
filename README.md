@@ -36,4 +36,4 @@ Detalhamento da Implementação:
 
 # Funcionamento Na Prática
 
-![Funcionamento](https://imgur.com/zsGpgaJ.gif)
+![Funcionamento](https://imgur.com/N7qnlrJ.gif)
