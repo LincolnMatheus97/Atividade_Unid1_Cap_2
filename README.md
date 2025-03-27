@@ -1,5 +1,7 @@
 # Atividade Unidade1 Capitulo 2 / Residência de Sistemas Embarcados
 
+# Problema:
+
 ```
 Sistema de Monitoramento Simples com 3 Tarefas
 Criar uma aplicação embarcada no FreeRTOS com 3 tarefas que simulam o monitoramento de um sistema com sensores (como um botão e um LED). 
@@ -33,6 +35,11 @@ Detalhamento da Implementação:
  ° Pode-se usar semáforos ou filas para que as tarefas se comuniquem e cooperem entre si.
  ° A Tarefa 2 pode enviar um sinal para a Tarefa 3 quando detectar o estado do botão.
 ```
+
+# Resolução:
+
+Utilizando as ferramentas e conceitos aprendidos nas aulas do capítulo 2, minha aplicação para o sistema de monitoramento simples de 3 tarefas, foi utilizando filas(queue).  Pois as filas são mais adequadas nesse contexto onde temos que fazer a comunicação e troca de dados, nesse caso utilizamos um sinal para fazer a comunicação entre as tarefas.
+
 
 # Funcionamento Na Prática
 
