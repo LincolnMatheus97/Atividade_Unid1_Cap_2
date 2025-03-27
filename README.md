@@ -38,7 +38,7 @@ Detalhamento da Implementação:
 
 # Resolução:
 
-Utilizando as ferramentas e conceitos aprendidos nas aulas do capítulo 2, minha aplicação para o sistema de monitoramento simples de 3 tarefas, foi utilizando filas(queue).  Pois as filas são mais adequadas nesse contexto onde temos que fazer a comunicação e troca de dados, nesse caso utilizamos um sinal para fazer a comunicação entre as tarefas.
+Utilizando as ferramentas e conceitos aprendidos nas aulas do capítulo 2, minha aplicação para o sistema de monitoramento simples de 3 tarefas, foi utilizando filas(queue). Pois as filas são mais adequadas nesse contexto onde temos que fazer a comunicação e troca de dados, nesse caso utilizamos um sinal para fazer a comunicação entre as tarefas.
 
 
 # Funcionamento Na Prática
