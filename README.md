@@ -1,4 +1,4 @@
-# Atividade_Unid1_Cap_2
+# Atividade Unidade1 Capitulo 2 / Residência de Sistemas Embarcados
 
 ```
 Sistema de Monitoramento Simples com 3 Tarefas
@@ -33,3 +33,7 @@ Detalhamento da Implementação:
  ° Pode-se usar semáforos ou filas para que as tarefas se comuniquem e cooperem entre si.
  ° A Tarefa 2 pode enviar um sinal para a Tarefa 3 quando detectar o estado do botão.
 ```
+
+# Funcionamento Na Prática
+
+![Funcionamento](https://imgur.com/a/pwuf9kD)

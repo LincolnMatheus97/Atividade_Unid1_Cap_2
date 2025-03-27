@@ -71,6 +71,7 @@ void vTarefa3(void *parametro) {
 }
 
 int main() {
+    // Inicializo o sistema
     setup();
 
     // Crio filas para comunicação entre tarefas
