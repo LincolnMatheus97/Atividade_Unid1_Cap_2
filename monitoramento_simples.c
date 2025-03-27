@@ -83,8 +83,8 @@ int main() {
 
         // Crio as tarefas
         xTaskCreate(vTarefa1, "tarefa1", 256, NULL, 1, NULL);
-        xTaskCreate(vTarefa2, "tarefa2", 256, NULL, 1, NULL);
-        xTaskCreate(vTarefa3, "tarefa3", 256, NULL, 1, NULL);
+        xTaskCreate(vTarefa2, "tarefa2", 256, NULL, 2, NULL);
+        xTaskCreate(vTarefa3, "tarefa3", 256, NULL, 2, NULL);
 
         // Inicializo o escalonador de tarefas 
         vTaskStartScheduler();

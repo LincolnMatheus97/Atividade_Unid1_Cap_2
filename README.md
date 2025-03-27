@@ -38,8 +38,9 @@ Detalhamento da Implementação:
 
 # Resolução:
 
-Utilizando as ferramentas e conceitos aprendidos nas aulas do capítulo 2, minha aplicação para o sistema de monitoramento simples de 3 tarefas, foi utilizando filas(queue). Pois as filas são mais adequadas nesse contexto onde temos que fazer a comunicação e troca de dados, nesse caso utilizamos um sinal para fazer a comunicação entre as tarefas.
+Utilizando as ferramentas e conceitos aprendidos nas aulas do capítulo 2, minha aplicação para o sistema de monitoramento simples de 3 tarefas, foi utilizando filas(queue). Pois elas são mais adequadas nesse contexto onde temos que fazer a comunicação e troca de dados, nesse caso utilizamos um sinal para fazer a comunicação entre as tarefas.
 
+Crio duas filas, uma fila_botao para o estado do botão e a fila_led para o comando de ligar o LED. A tarefa 1, envia pela fila_botao o sinal caso o botão tenha sido pressionado. A tarefa 2, recebe esse sinal via fila_botao e se tiver sido acionado, indica o sinal pela fila_led para a tarefa 3 acender o LED. Coloquei a tarefa 1 com baixa prioridade, ela continua sendo executada continuamente, mas será preemptada (interrompida) caso a tarefa 2 ou tarefa 3 precisar do processador.
 
 # Funcionamento Na Prática
 
